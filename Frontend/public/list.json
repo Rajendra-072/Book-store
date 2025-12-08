@@ -1,0 +1,84 @@
+
+
+[
+  {
+    "id": 1,
+    "name": "Story Book",
+    "titel": "This is an interesting story book",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f"
+  },
+  {
+    "id": 2,
+    "name": "Science Explorer",
+    "titel": "A beginner-friendly science learning book",
+    "price": 120,
+    "category": "Science",
+    "image": "https://images.unsplash.com/photo-1581091012184-5c1d9b0b41f4"
+  },
+  {
+    "id": 3,
+    "name": "History Of India",
+    "titel": "Detailed history of ancient to modern India",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d"
+  },
+  {
+    "id": 4,
+    "name": "Programming Basics",
+    "titel": "Learn programming from absolute zero",
+    "price": 199,
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f"
+  },
+  {
+    "id": 5,
+    "name": "Motivation Booster",
+    "titel": "A powerful motivational book for students",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66"
+  },
+  {
+    "id": 6,
+    "name": "Cooking Made Easy",
+    "titel": "Learn easy and quick home cooking recipes",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+  },
+  {
+    "id": 7,
+    "name": "Business Mindset",
+    "titel": "Develop the mindset of successful people",
+    "price": 180,
+    "category": "Business",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e"
+  },
+  {
+    "id": 8,
+    "name": "Kids Learning Book",
+    "titel": "Colorful book designed for kids learning",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+  },
+  {
+    "id": 9,
+    "name": "English Grammar Guide",
+    "titel": "Perfect book to improve English grammar",
+    "price": 130,
+    "category": "Education",
+    "image": "https://images.unsplash.com/photo-1528209391719-6922f1a06aab"
+  },
+  {
+    "id": 10,
+    "name": "Adventure Tales",
+    "titel": "A thrilling adventurous story book",
+    "price": 5,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d"
+  }
+]
