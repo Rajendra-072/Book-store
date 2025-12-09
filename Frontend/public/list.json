@@ -15,7 +15,7 @@
     "titel": "A beginner-friendly science learning book",
     "price": 120,
     "category": "Science",
-    "image": "https://images.unsplash.com/photo-1581091012184-5c1d9b0b41f4"
+    "image":" https://images.unsplash.com/photo-1504674900247-0877df9cc836"
   },
   {
     "id": 3,
@@ -71,7 +71,7 @@
     "titel": "Perfect book to improve English grammar",
     "price": 130,
     "category": "Education",
-    "image": "https://images.unsplash.com/photo-1528209391719-6922f1a06aab"
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
   },
   {
     "id": 10,
@@ -79,6 +79,6 @@
     "titel": "A thrilling adventurous story book",
     "price": 5,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d"
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
   }
 ]

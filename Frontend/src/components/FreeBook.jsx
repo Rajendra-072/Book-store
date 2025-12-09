@@ -13,7 +13,7 @@ function FreeBook() {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -27,7 +27,7 @@ function FreeBook() {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 800,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -35,7 +35,7 @@ function FreeBook() {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 550,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -45,14 +45,15 @@ function FreeBook() {
   };
 
   return (
-    <div className=" w-full md:pl-10 md:pr-6 my-8">
+    <div className=" w-full md:pl-10 md:pr-6 z-50 my-8">
       <div>
         <h1 className="font-semibold text-xl pb-2">Free Offerd Cources</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          odio temporibus laborum earum nisi nihil minima repellendus voluptatem
-          iusto, cumque, magni porro nostrum sint commodi dolorem distinctio
-          quibusdam molestias error.
+          we believe in the power of stories to enrich lives. With fast
+          shipping, exceptional customer service, and a user-friendly shopping
+          experience, we strive to make your book-buying journey enjoyable and
+          effortless. Join our community of readers and discover your next great
+          read today!
         </p>
       </div>
       <Slider {...settings}>

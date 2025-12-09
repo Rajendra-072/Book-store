@@ -9,12 +9,11 @@ function Banner() {
         <div className="space-y-10 md:space-y-12 mt-10 md:mt-20 ">
           <h1 className="text-2xl md:text-4xl font-bold">
             Hello, Welcome here to learn something{" "}
-            <span className="text-orange-600">New Everyday!!</span>
+            <span className="text-pink-600">New Everyday!!</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            voluptates ut dolore possimus nesciunt adipisci sit quisquam iure
-            totam fugiat ipsam saepe, dignissimos
+            Welcome to 99Bookstore, your ultimate online destination for book
+            lovers! We are passionate about connecting readers
           </p>
 
           <div>
@@ -35,13 +34,13 @@ function Banner() {
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </g>
               </svg>
-              <input type="email" placeholder="mail@site.com" required />
+              <input type="email" placeholder="Enter email id" required />
             </label>
             <div className="validator-hint hidden">
               Enter valid email address
             </div>
             <div>
-              <button className="btn  btn-secondary mt-2">Secondary</button>
+              <button className="btn  btn-secondary mt-2">Submit</button>
             </div>
           </div>
         </div>

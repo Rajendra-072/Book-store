@@ -3,13 +3,21 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <hr className="my-" />
+      <hr className="" />
       <footer className="footer footer-horizontal footer-center  text-base-content rounded p-10">
         <nav className="grid grid-flow-col gap-4">
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <a href="/" className="link link-hover">
+            Home
+          </a>
+          <a href="/Cource" className="link link-hover">
+            Cource
+          </a>
+          <a href="/Contact" className="link link-hover">
+            Contact
+          </a>
+          <a href="/Abouts" className="link link-hover">
+            About{" "}
+          </a>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">
