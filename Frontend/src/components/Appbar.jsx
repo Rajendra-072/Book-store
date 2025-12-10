@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Login from "./Login";
 
 function Appbar() {
   const [sticky, setSticky] = useState(false);
@@ -82,7 +83,7 @@ function Appbar() {
 
           <div className="hidden md:block">
             {" "}
-            <label className="input rounded-md">
+            <label className="input rounded-md outline-none">
               <svg
                 className="h-[1em] opacity-50"
                 xmlns="http://www.w3.org/2000/svg"
@@ -99,14 +100,22 @@ function Appbar() {
                   <path d="m21 21-4.3-4.3"></path>
                 </g>
               </svg>
-              <input type="search" required placeholder="Search" />
+              <input type="search" className="" required placeholder="Search" />
             </label>
           </div>
 
           <div>
             <a>
-              <button className="btn btn-neutral">Login</button>
+              <button
+                className="btn btn-neutral"
+                onClick={() =>
+                  document.getElementById("my_modal_5").showModal()
+                }
+              >
+                Login
+              </button>
             </a>
+            <Login />
           </div>
         </div>
       </div>
