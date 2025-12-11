@@ -1,6 +1,14 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 
 const Contact = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = data => console.log(data);
   return (
     <div className="mt-10 min-h-screen bg-gray-50w-full md:pl-10 md:pr-6 my-8  flex items-center justify-center p-6">
       <div className="max-w-3xl w-full bg-white dark:bg-slate-800 shadow-lg p-8 rounded-2xl">
@@ -13,14 +21,21 @@ const Contact = () => {
         </p>
 
         {/* Form */}
-        <form className="space-y-5">
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
           <div>
             <label className="block mb-1 font-medium">Full Name</label>
             <input
               type="text"
               placeholder="Enter your name"
               className="w-full p-3 rounded-lg border dark:border-gray-700 bg-gray-100 dark:bg-slate-700 outline-none"
+              {...register("name", { required: true })}
             />
+            <br />
+            {errors.name && (
+              <span className="text-sm text-red-600">
+                This field is required
+              </span>
+            )}
           </div>
 
           <div>
@@ -29,7 +44,14 @@ const Contact = () => {
               type="email"
               placeholder="Enter your email"
               className="w-full p-3 rounded-lg border dark:border-gray-700 bg-gray-100 dark:bg-slate-700 outline-none"
+              {...register("email", { required: true })}
             />
+            <br />
+            {errors.email && (
+              <span className="text-sm text-red-600">
+                This field is required
+              </span>
+            )}
           </div>
 
           <div>
@@ -38,7 +60,14 @@ const Contact = () => {
               rows="5"
               placeholder="Write your message"
               className="w-full p-3 rounded-lg border dark:border-gray-700 bg-gray-100 dark:bg-slate-700 outline-none"
-            ></textarea>
+              {...register("message", { required: true })}
+            />
+            <br />
+            {errors.message && (
+              <span className="text-sm text-red-600">
+                This field is required
+              </span>
+            )}
           </div>
 
           {/* Submit Button */}
