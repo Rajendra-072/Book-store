@@ -40,7 +40,7 @@ function Banner() {
               Enter valid email address
             </div>
             <div>
-              <button className="btn  btn-secondary mt-2">Submit</button>
+              <button className="btn  btn-secondary mt-2">Get Started</button>
             </div>
           </div>
         </div>

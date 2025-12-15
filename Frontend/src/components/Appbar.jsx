@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Login from "./Login";
+import Logout from "./Logout";
+import { useAuth } from "../../context/AuthProvider";
 
 function Appbar() {
+  const [AuthUser, setAuthUseer] = useAuth();
   const [sticky, setSticky] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -103,20 +106,23 @@ function Appbar() {
               <input type="search" className="" required placeholder="Search" />
             </label>
           </div>
-
-          <div>
-            <a>
-              <button
-                className="btn btn-neutral"
-                onClick={() =>
-                  document.getElementById("my_modal_5").showModal()
-                }
-              >
-                Login
-              </button>
-            </a>
-            <Login />
-          </div>
+          {AuthUser ? (
+            <Logout />
+          ) : (
+            <div>
+              <a>
+                <button
+                  className="btn btn-neutral"
+                  onClick={() =>
+                    document.getElementById("my_modal_5").showModal()
+                  }
+                >
+                  Login
+                </button>
+              </a>
+              <Login />
+            </div>
+          )}
         </div>
       </div>
     </div>
